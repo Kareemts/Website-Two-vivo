@@ -1,0 +1,408 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    
+}
+.header{
+    background: white;
+    width: 100%;
+    height: 60px;
+    top: 0%;
+    position: sticky;
+    
+}
+.logo{
+    color: #242933;
+    width: 100px;
+    height: 25px;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+.logo:hover{
+    cursor: pointer;
+}
+.navcontent{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:#242933;
+    font-size:10px;
+    display:inline;
+    font-weight: lighter;
+    padding-left:100px;
+    font-size: xx-small;
+}
+
+
+.Home{
+    display: inline;
+    font-weight: 500;
+    font-size: 20px;
+}
+.Home:hover{
+    cursor: pointer;
+    color: blue;
+}
+.Products{
+    display: inline;
+    padding-left: 25px;
+    font-size: 20px;
+
+}
+.Products:hover{
+    cursor: pointer;
+    color: blue;
+}
+.E-Store{
+    display: inline;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.E-Store:hover{
+    cursor: pointer;
+    color: blue;
+}
+.vivoExclusiveStore{
+    display: inline;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.vivoExclusiveStore:hover{
+    cursor: pointer;
+    color: blue;
+}
+.Support{
+    display: inline;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.Support:hover{
+    cursor: pointer;
+    color: blue;
+}
+.FuntouchOS{
+    display: inline;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.FuntouchOS:hover{
+    cursor: pointer;
+    color: blue;
+}
+.Vision{
+    display: inline;
+    padding-left: 25px;
+    font-size: 20px;
+}
+.Vision:hover{
+    cursor: pointer;
+    color: blue;
+}
+.cart{
+    width:  40px;
+    height: 20px;
+    padding-left: 30px;
+}
+.cart:hover{
+    cursor: pointer;
+}
+.message{
+    width:  44px;
+    height: 20px;
+    padding-left: 80px;
+
+}
+.message:hover{
+    cursor: pointer;
+}
+
+.pic1div{
+    width: 100%;
+    height: 600px;
+    background-image: url(pics/vivopic1.jpg) ;
+    background-size: cover; 
+    margin-top: -80px;
+    transition: transform 1s;
+
+}
+.buynow:hover{
+    cursor: pointer;
+    color:black;
+    transform: scale(1.03,1.03);
+}
+
+.pic2div{
+    margin-left: 100px;
+    width: 86%;
+    height: 450px;
+    background-image: url(pics/vivopic2.jpg) ;
+    margin-top: 80px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 35px;
+    transition: transform 1s; 
+}
+.pic2div:hover{
+    transform: scale(1.03,1.03);
+    cursor: pointer;
+}
+.y75{
+    padding-left: 12%;
+    padding-top: 12%;
+    color: white;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+
+}
+.pic3div{
+    margin-left: 100px;
+    width: 86%;
+    height: 450px;
+    background-image: url(pics/vivopic3.jpg) ;
+    margin-top: 40px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 35px;
+    transition: transform 1s; 
+
+}
+.pic3div:hover{
+    transform: scale(1.03,1.03);
+    cursor: pointer;
+}
+.t1pro{
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    transition: transform 1s;
+    padding-left: 120px;
+    padding-top: 140px;
+    
+}
+.Learnmore:hover{
+    cursor: pointer;
+    color:white;
+    transform: scale(1.03,1.03);
+}
+.bottom{
+    width: 100%;
+    height: 800px;
+    background: #f0f2f5;
+    margin-top: 80px;
+    
+
+    
+}
+.bottom2{
+    display: flex;
+    flex-direction: row;
+
+}
+.discover{
+    margin-left: 90px;
+    padding-top: 70px;
+    font-family: "languageFont","AvenirNext","Microsoft YaHei",微软雅黑,"MicrosoftJhengHei",华文细黑,STHeiti,MingLiu,sans-serif,"WebRupee";
+    font-size: 40px;
+    color: #242933;
+    margin-bottom: 40px;
+    line-height: 1;
+    font-weight: 400;
+}
+.bottomdiv1{
+    flex-direction: column;
+    width: 350px;
+    height: 280px;
+    margin-left: 70px;
+    border-radius: 24px;
+    transition: transform .5s,-webkit-transform .5s;
+    background-image: url(pics/img1.jpg) ;
+    background-size: cover;
+    background-position: center;
+    transition: transform 1s; 
+
+}
+.bottomdiv1:hover{
+    transform: scale(1.10 ,1.10);
+    cursor: pointer;
+
+}
+.x60{
+    font-size: large;
+    padding-left: 50px;
+    padding-top: 175px;
+}
+.bottomdiv2{
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    margin-left: 30px;
+    border-radius: 24px;
+    transition: transform .5s,-webkit-transform .5s;
+    background-image: url(pics/img2.jpg) ;
+    background-size: cover;
+    background-position: center;
+    transition: transform 1s; 
+}
+.bottomdiv2:hover{
+    transform: scale(1.10 ,1.10);
+    cursor: pointer;
+
+}
+.bottomdiv3{
+    width: 350px;
+    height: 250px;
+    margin-left: 30px;
+    border-radius: 24px;
+    background-image: url(pics/img3.jpg) ;
+    background-size: cover;
+    background-position: center;
+    transition: transform 1s; 
+
+
+}
+.bottomdiv3-2{
+    width: 350px;
+    height: 120px;
+    background-color:white;
+    margin-top: 220px;
+    border-end-end-radius: 24px;
+    border-end-start-radius: 24px;
+
+}
+.vivoTWSNeo{
+    font-weight: normal;
+    padding-left: 30px;
+    padding-top: 20px;
+}
+.Seamles{
+    padding-left: 30px;
+}
+.bottomdiv3:hover{
+    transform: scale(1.10 ,1.10);
+    cursor: pointer;
+
+}
+.photography{
+    padding-left: 50px;
+    margin-top: 400px;
+}
+.bottomdiv4{
+    margin-top: -190px;
+    width: 350px;
+    height: 250px;
+    margin-left: 70px;
+    border-radius: 24px;
+    background-image: url(pics/pic4.jpg) ;
+    background-size: cover;
+    background-position: center;
+    transition: transform 1s; 
+
+}
+.vivoPro5G{
+    padding-top: 160px;
+    color: white;
+    padding-left: 20px;
+}
+.Delight{
+    color: white;
+    padding-left: 20px;
+}
+.bottomdiv4:hover{
+    transform: scale(1.10 ,1.10);
+    cursor: pointer;
+
+}
+.bottomdiv5{
+    margin-top: -200px;
+    width: 350px;
+    height: 250px;
+    border-radius: 24px;
+    background-image: url(pics/img5.jpg) ;
+    background-size: cover;
+    background-position: center;
+    margin-left: 65.6%;
+    transition: transform 1s; 
+}
+.bottomdiv5:hover{
+    cursor: pointer;
+    transform: scale(1.10 ,1.10);
+
+}
+.y73{
+    color: white;
+    padding-left: 30px;
+    padding-top: 130px;
+}
+.footer{
+    width: 100%;
+    height: 600px;
+    background: #242933;
+
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+}
+.populerlinks{
+    color: white;
+    padding-left: 80px;
+    padding-top: 50px;
+    
+}
+.populerlinks:hover{
+    cursor: pointer;
+}
+.purchaselinks{
+    color: white;
+    padding-left: 10px;
+    padding-top: 50px;
+    
+}
+.purchaselinks:hover{
+    cursor: pointer;
+}
+.Supportlinks{
+    color: white;
+    padding-left: 40px;
+    padding-top: 50px;
+    
+}
+.Supportlinks:hover{
+    cursor: pointer;
+}
+.aboutvivo{
+    color: white;
+    padding-left: 40px;
+    padding-top: 50px;
+    
+}
+.aboutvivo:hover{
+    cursor: pointer;
+}
+.populer{
+    color:#8a8f99;
+}
+.Purchase{
+    color:#8a8f99;
+}
+.support{
+    color:#8a8f99;
+}
+.about{
+    color:#8a8f99; 
+}
+li{
+    list-style: none;
+}
+.contacts{
+    color:#c2c5cc;
+    padding-left: 180px;
+    padding-top: 50px;
+}
+.contacts:hover{
+    cursor: pointer;
+}
+.footer2{
+    width: 100%;
+    height: 60px;
+    background-color: #415fff;
+}
+.fb{
+    width: 35px;
+    height: 35px;
+}
